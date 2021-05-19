@@ -1,67 +1,67 @@
 * {
-	margin: 0px;
+    margin: 0px;
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
-	/*removes bounce effect*/
-	overscroll-behavior-y: none;
+    font-family: 'Open Sans', sans-serif;
+    /*removes bounce effect*/
+    overscroll-behavior-y: none;
 }
 
 /*all buttons*/
- button:hover {
-	cursor: pointer;
+button:hover {
+    cursor: pointer;
 }
 
 /*banner section*/
 #banner {
-	background-image: url(images/header_bg.jpg);
-	height: 500px;
-	width: 100%;
-	background-position: center;
-  	background-size: cover;
-  	position: relative;
+    background-image: url(images/header_bg.jpg);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 #banner h1 {
-	padding-left: 80px;
-	color: #FFFFFF;
-  	font-weight: 800;
-  	font-size: 24px;
-  	padding-top: 20px;
+    padding-left: 80px;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 24px;
+    padding-top: 20px;
 }
 
 #banner h2 {
-	color: #FFFFFF;
-  	font-weight: 600;
-  	font-size: 24px;  
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .position-center {
-  	margin: 0;
-  	position: absolute;
-  	top: 40%;
-  	left: 50%;
-  	-ms-transform: translate(-50%, -50%);
-  	transform: translate(-50%, -50%);
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 
 }
 
 .position-center button {
-	display: block;
-	margin: 0 auto;
-	font-weight: 800;
-  	font-size: 14px;
-  	border-radius: 5px;
-  	border: none;
-  	background-color: #f9e42e;
-  	padding: 10px 50px;
-  	color: #033048;
-  	margin-top: 50px;
+    display: block;
+    margin: 0 auto;
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f9e42e;
+    padding: 10px 50px;
+    color: #033048;
+    margin-top: 50px;
 }
 
 .position-center button:active {
-   	transform: scale(0.98);
+    transform: scale(0.98);
     /* Scaling button to 0.98 to its original size */
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
     /* Lowering the shadow */
@@ -70,74 +70,74 @@ body {
 /*benefits section*/
 
 #benefits {
-	height: 250px;
-	background-color: #f0efef;
-	padding: 65px;
+    height: 250px;
+    background-color: #f0efef;
+    padding: 65px;
 }
 
 #benefits h1 {
-	font-size: 20px;
-	font-weight: 600;
-	color: #033048;
+    font-size: 20px;
+    font-weight: 600;
+    color: #033048;
 }
 
 .font-style {
-	font-size: 13px;
-	font-weight: 300;
-	color: #606161;
+    font-size: 13px;
+    font-weight: 300;
+    color: #606161;
 }
 
 #benefits ul {
-	padding-left: 62px;
+    padding-left: 62px;
 }
 
 /*testimonial section*/
 
 #testimonial {
-	background-image: url(images/testimonial_bg.jpg);
-	height: 210px;
-	background-position: center;
-  	background-size: cover;
-  	position: relative;
-	
+    background-image: url(images/testimonial_bg.jpg);
+    height: 210px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
 }
 
 .text-center1 {
-	display: block;
-	margin: 0 auto;
-	color: #FFFFFF;
-	text-align: center;
-	padding: 50px 0;
+    display: block;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px 0;
 }
 
 .text-center1 p {
-	font-size: 18px;
-	font-weight: 300;
-	font-style: italic;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .text-center1 h4 {
-	font-size: 18px;
-	font-weight: 600;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 /*yellow background section*/
 
 #background-yellow {
-	background-color: #f9e42e;
-  	padding: 20px;
+    background-color: #f9e42e;
+    padding: 20px;
 }
 
 #background-yellow button {
-  	color: #FFFFFF;
-  	background-color: #033048;
-	padding: 10px 50px;
-	font-weight: 800;
-	font-size: 12px;
-	border-radius: 5px;
-	border: none;
-	display: block;
-	margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #033048;
+    padding: 10px 50px;
+    font-weight: 800;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -151,54 +151,294 @@ body {
 /*footer section*/
 
 footer {
-  	background-color: #121212;
-  	width: 100%;
-  	height: 210px;
- 	/*hides extra margin at bottom*/
- 	overflow:hidden;
+    background-color: #121212;
+    width: 100%;
+    height: 210px;
+    /*hides extra margin at bottom*/
+    overflow: hidden;
 }
 
-.text-center2 h1{
-	color: #f9e42e;
-	font-size: 24px;
-	font-weight: 800;
-	text-align: center;
-	padding-top: 40px;
+.text-center2 h1 {
+    color: #f9e42e;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 40px;
 }
 
 .text-center2 p {
-	font-size: 18px;
-	font-weight: 600;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .text-center2 ul {
-	list-style: none;
-	display: flex;
-	justify-content: center;
-	padding: 13px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 13px;
 }
 
 .twit {
-	padding: 10px;
+    padding: 10px;
 
 }
 
 .face {
-	padding: 10px;
+    padding: 10px;
 }
 
 ul img {
-	height: 23px;
+    height: 23px;
 }
 
 li {
-	margin: 3px;
+    margin: 3px;
 }
 
-.text-center2 p{
-	font-size: 9px;
-	font-weight: 600;
-	text-align: center;
-	color: #FFFFFF;
+.text-center2 p {
+    font-size: 9px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
 }
 
+/*Responsive*/
+
+/*Landscape phones and down*/
+@media (max-width: 500px) {
+
+    #banner {
+        height: 350px !important;
+    }
+
+    #banner h1 {
+        padding-left: 28px;
+        font-size: 24px !important;
+    }
+
+    .position-center h2 {
+        width: max-content;
+        font-size: 20px;
+    }
+
+    .position-center button {
+        margin-top: 38px !important;
+        padding: 6px 30px !important;
+
+    }
+
+    #benefits {
+        height: 275px;
+        padding: 40px 59px;
+    }
+
+    .font-style {
+        font-size: 14px !important;
+    }
+
+    .text-center1 p {
+        font-size: 18px !important;
+    }
+
+}
+
+/*Landscape phone to portrait tablet*/
+@media (max-width: 768px) {
+
+    #banner h1 {
+        font-size: 28px;
+    }
+
+    #banner {
+        height: 400px !important;
+        font-size: 28px;
+    }
+
+    .postion-center {
+        top: 42%;
+    }
+
+    .position-center h2 {
+        width: max-content;
+    }
+
+    .position-center button {
+        margin-top: 28px;
+        font-size: 16px;
+        padding: 10px 44px;
+    }
+
+    .position-center h2 {
+        width: max-content;
+    }
+
+    #beneifts {
+        padding: 50px;
+    }
+
+    #background-yellow {
+        padding: 10px;
+    }
+
+    #background-yellow button {
+        padding: 10px 35px;
+    }
+
+    .font-style {
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .text-center1 p {
+        font-size: 20px;
+    }
+
+    .text-center1 h4 {
+        font-size: 20px;
+    }
+
+    .text-center1 {
+        padding: 38px 0;
+    }
+
+}
+
+/*Portrait tablet to landscape and desktop*/
+@media (min-width: 768px) and (max-width: 999px) {
+
+    #banner {
+        height: 435px;
+    }
+
+    #banner h1 {
+        font-size: 35px;
+    }
+
+    #banner h2 {
+        font-size: 28px;
+    }
+
+    .position-center button {
+        font-size: 22px;
+    }
+
+    .position-center h2 {
+        width: max-content;
+    }
+
+    #benefits {
+        padding: 98px 142px;
+        padding-top: 50px;
+    }
+
+    #benefits h1 {
+        font-size: 32px;
+    }
+
+    .font-style {
+        font-size: 20px;
+    }
+
+    .text-center1 {
+        padding: 25px 0 !important;
+    }
+
+    .text-center1 p {
+        font-size: 24px !important;
+    }
+
+    .text-center1 h4 {
+        font-size: 22px !important;
+    }
+
+    #background-yellow button {
+        font-size: 20px !important;
+        padding: 10px 35px;
+    }
+
+    .text-center2 h1 {
+        font-size: 35px;
+    }
+
+    ul img {
+        height: 30px;
+    }
+
+    .text-center2 p {
+        font-size: 15px;
+    }
+}
+
+/*Large desktop*/
+@media (min-width: 1000px) {
+
+    #banner {
+        height: 550px;
+    }
+
+    #banner h1 {
+        font-size: 40px;
+    }
+
+    #banner h2 {
+        font-size: 36px;
+    }
+
+    .position-center button {
+        font-size: 24px;
+    }
+
+    .position-center {
+        top: 34%;
+    }
+
+    .position-center h2 {
+        width: max-content;
+    }
+
+    #benefits h1 {
+        font-size: 32px;
+    }
+
+    .font-style {
+        font-size: 25px;
+    }
+
+    #benefits {
+        height: 360px;
+        padding: 65px 100px;
+    }
+
+    #testimonial {
+        height: 300px;
+    }
+
+    .text-center1 p {
+        font-size: 30px;
+    }
+
+    .text-center1 h4 {
+        font-size: 26px;
+    }
+
+    .text-center1 {
+        padding: 50px 0;
+    }
+
+    #background-yellow button {
+        font-size: 23px;
+    }
+
+    .text-center2 h1 {
+        font-size: 35px;
+    }
+
+    ul img {
+        height: 30px;
+    }
+
+    .text-center2 p {
+        font-size: 14px;
+    }
+
+}
