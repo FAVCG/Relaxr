@@ -1,0 +1,204 @@
+* {
+	margin: 0px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	/*removes bounce effect*/
+	overscroll-behavior-y: none;
+}
+
+/*all buttons*/
+ button:hover {
+	cursor: pointer;
+}
+
+/*banner section*/
+#banner {
+	background-image: url(images/header_bg.jpg);
+	height: 500px;
+	width: 100%;
+	background-position: center;
+  	background-size: cover;
+  	position: relative;
+}
+
+#banner h1 {
+	padding-left: 80px;
+	color: #FFFFFF;
+  	font-weight: 800;
+  	font-size: 24px;
+  	padding-top: 20px;
+}
+
+#banner h2 {
+	color: #FFFFFF;
+  	font-weight: 600;
+  	font-size: 24px;  
+}
+
+.position-center {
+  	margin: 0;
+  	position: absolute;
+  	top: 40%;
+  	left: 50%;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+
+}
+
+.position-center button {
+	display: block;
+	margin: 0 auto;
+	font-weight: 800;
+  	font-size: 14px;
+  	border-radius: 5px;
+  	border: none;
+  	background-color: #f9e42e;
+  	padding: 10px 50px;
+  	color: #033048;
+  	margin-top: 50px;
+}
+
+.position-center button:active {
+   	transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+/*benefits section*/
+
+#benefits {
+	height: 250px;
+	background-color: #f0efef;
+	padding: 65px;
+}
+
+#benefits h1 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #033048;
+}
+
+.font-style {
+	font-size: 13px;
+	font-weight: 300;
+	color: #606161;
+}
+
+#benefits ul {
+	padding-left: 62px;
+}
+
+/*testimonial section*/
+
+#testimonial {
+	background-image: url(images/testimonial_bg.jpg);
+	height: 210px;
+	background-position: center;
+  	background-size: cover;
+  	position: relative;
+	
+}
+
+.text-center1 {
+	display: block;
+	margin: 0 auto;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 50px 0;
+}
+
+.text-center1 p {
+	font-size: 18px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.text-center1 h4 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+/*yellow background section*/
+
+#background-yellow {
+	background-color: #f9e42e;
+  	padding: 20px;
+}
+
+#background-yellow button {
+  	color: #FFFFFF;
+  	background-color: #033048;
+	padding: 10px 50px;
+	font-weight: 800;
+	font-size: 12px;
+	border-radius: 5px;
+	border: none;
+	display: block;
+	margin: 0 auto;
+}
+
+
+#background-yellow button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+/*footer section*/
+
+footer {
+  	background-color: #121212;
+  	width: 100%;
+  	height: 210px;
+ 	/*hides extra margin at bottom*/
+ 	overflow:hidden;
+}
+
+.text-center2 h1{
+	color: #f9e42e;
+	font-size: 24px;
+	font-weight: 800;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.text-center2 p {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.text-center2 ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding: 13px;
+}
+
+.twit {
+	padding: 10px;
+
+}
+
+.face {
+	padding: 10px;
+}
+
+ul img {
+	height: 23px;
+}
+
+li {
+	margin: 3px;
+}
+
+.text-center2 p{
+	font-size: 9px;
+	font-weight: 600;
+	text-align: center;
+	color: #FFFFFF;
+}
+
